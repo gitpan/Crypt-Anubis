@@ -5,7 +5,6 @@ use strict;
 use warnings;
 use Crypt::CBC;
 use MIME::Base64;
-use Crypt::Anubis;
 
 sub get_input
 {
