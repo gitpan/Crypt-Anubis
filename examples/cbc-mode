@@ -11,7 +11,7 @@ my $IV = pack "H32", "00112233445566778899aabbccddeeff";
 my $cipher = Crypt::CBC->new({'key' => $key,
                               'cipher' => 'Anubis',
                               'iv' => $IV,
-                              'regenerate_key' => 0,
+                              'regenerate_key' => 1,
                               'padding' => 'standard',
                               'prepend_iv' => 0
                             });

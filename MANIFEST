@@ -5,6 +5,7 @@ Changes
 examples/cbc-mode
 examples/ecb-mode
 examples/fileenc
+examples/pin-generator
 INSTALL
 LICENSE
 Makefile.PL
@@ -12,6 +13,8 @@ MANIFEST			This list of files
 META.yml
 ppport.h
 README
+t/decrypt.t
+t/encrypt.t
 t/loading.t
 t/set1-02.t
 t/set1-03.t

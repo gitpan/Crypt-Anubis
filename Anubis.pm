@@ -5,7 +5,7 @@ use warnings;
 require Exporter;
 
 our @EXPORT_OK = qw(keysize blocksize new encrypt decrypt);
-our $VERSION = '1.0.0';
+our $VERSION = '1.0.1';
 our @ISA = qw(Exporter);
 
 require XSLoader;
@@ -126,6 +126,10 @@ Decrypts 16 bytes of $data and returns the corresponding plaintext.
 
 See B<Crypt::CBC> for more examples using CBC mode. See also the
 "examples" and "t" directories for some more examples.
+
+=head1 SEE ALSO
+
+B<Crypt::Khazad> and B<Crypt::Misty1>
 
 =head1 COPYRIGHT AND LICENSE
 
